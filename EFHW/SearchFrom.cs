@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace EFHW
 {
-    public partial class MainForm : Form
+    public partial class SearchFrom : Form
     {
-        public MainForm()
+        public SearchFrom()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

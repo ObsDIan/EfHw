@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace EFHW
 {
-    public partial class MainForm : Form
+    public partial class NewFrom : Form
     {
-        public MainForm()
+        public NewFrom()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

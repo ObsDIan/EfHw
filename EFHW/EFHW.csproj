@@ -70,6 +70,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChangeFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeFrom.Designer.cs">
+      <DependentUpon>ChangeFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DelFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DelFrom.Designer.cs">
+      <DependentUpon>DelFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFrom.Designer.cs">
+      <DependentUpon>NewFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchFrom.Designer.cs">
+      <DependentUpon>SearchFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewFrom.Designer.cs">
+      <DependentUpon>ViewFrom.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +110,12 @@
     <Compile Include="Models\ContactsTable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFrom.resx">
+      <DependentUpon>NewFrom.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -89,6 +125,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ViewFrom.resx">
+      <DependentUpon>ViewFrom.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
