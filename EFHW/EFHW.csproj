@@ -82,11 +82,11 @@
     <Compile Include="DelFrom.Designer.cs">
       <DependentUpon>DelFrom.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewFrom.cs">
+    <Compile Include="AddFrom.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewFrom.Designer.cs">
-      <DependentUpon>NewFrom.cs</DependentUpon>
+    <Compile Include="AddFrom.Designer.cs">
+      <DependentUpon>AddFrom.cs</DependentUpon>
     </Compile>
     <Compile Include="SearchFrom.cs">
       <SubType>Form</SubType>
@@ -113,8 +113,8 @@
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewFrom.resx">
-      <DependentUpon>NewFrom.cs</DependentUpon>
+    <EmbeddedResource Include="AddFrom.resx">
+      <DependentUpon>AddFrom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
