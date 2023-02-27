@@ -19,7 +19,32 @@ namespace EFHW
 
         private void button1_Click(object sender, EventArgs e)
         {
+            ViewFrom view = new ViewFrom();
+            view.Show();
+        }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            SearchFrom searchFrom = new SearchFrom();
+            searchFrom.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var changeFrom = new ChangeFrom();
+            changeFrom.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            var DelFrom = new DelFrom();
+            DelFrom.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var AddFrom = new AddFrom();
+            AddFrom.Show();
         }
     }
 }

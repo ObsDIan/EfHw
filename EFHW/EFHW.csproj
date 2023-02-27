@@ -110,6 +110,9 @@
     <Compile Include="Models\ContactsTable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ChangeFrom.resx">
+      <DependentUpon>ChangeFrom.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -125,6 +128,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SearchFrom.resx">
+      <DependentUpon>SearchFrom.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ViewFrom.resx">
       <DependentUpon>ViewFrom.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,10 +150,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Contacts.mdf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <Content Include="Contacts_log.ldf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Contacts.mdf</DependentUpon>
     </Content>
   </ItemGroup>

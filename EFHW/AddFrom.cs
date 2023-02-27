@@ -23,6 +23,7 @@ namespace EFHW
 
         private void label1_Click(object sender, EventArgs e)
         {
+            
 
         }
 
@@ -46,9 +47,13 @@ namespace EFHW
             }
             catch (Exception ex)
             {
-                MessageBox.Show("發生錯誤");
+                MessageBox.Show($"發生錯誤{ex}");
             }
-            
+            var content = new ContactsModel();
+            var list = content.ContactsTable.ToList();
+            dataGridView1.DataSource = list;
+
+
         }
         private void ClearText()
         {

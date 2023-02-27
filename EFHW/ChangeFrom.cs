@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace EFHW
 {
-    public partial class Form1 : Form
+    public partial class ChangeFrom : Form
     {
-        public Form1()
+        public ChangeFrom()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
