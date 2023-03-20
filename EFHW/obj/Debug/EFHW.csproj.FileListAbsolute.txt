@@ -21,3 +21,4 @@ E:\跨域黑客\C#\EFHW\EFHW\EFHW\obj\Debug\EFHW.exe
 E:\跨域黑客\C#\EFHW\EFHW\EFHW\obj\Debug\EFHW.pdb
 E:\跨域黑客\C#\EFHW\EFHW\EFHW\obj\Debug\EFHW.SearchFrom.resources
 E:\跨域黑客\C#\EFHW\EFHW\EFHW\obj\Debug\EFHW.ChangeFrom.resources
+E:\跨域黑客\C#\EFHW\EFHW\EFHW\obj\Debug\EFHW.DelFrom.resources

@@ -49,11 +49,10 @@ namespace EFHW
             {
                 MessageBox.Show($"發生錯誤{ex}");
             }
+
             var content = new ContactsModel();
             var list = content.ContactsTable.ToList();
             dataGridView1.DataSource = list;
-
-
         }
         private void ClearText()
         {
